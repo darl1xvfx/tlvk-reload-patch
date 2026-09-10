@@ -492,8 +492,7 @@
   ],
   "thunder": [
     {
-      "id": "standard",
-      "reloadTime": "mul:0.825"
+      "id": "standard"
     },
     {
       "id": "small_caliber_charging_machine",

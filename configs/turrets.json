@@ -1,5 +1,330 @@
 [
 	{
+		"id":"thunder",
+		"nameRU":"Гром",
+		"nameEN":"Thunder",
+		"descriptionRU":"Пушка средней дальности. Разрывные снаряды могут поразить несколько танков одновременно.\n\nБоекомплект пушки «Гром» полностью состоит из универсальных бронебойно-фугасных снарядов нового поколения. Такие снаряды позволяют атаковать группу соперников, а относительно быстрая перезарядка пушки поможет получить неоспоримое преимущество перед тяжёлыми танками противника. Но нужно быть осторожным — в ближнем бою очень легко повредить собственный танк.\n\nЭта среднекалиберная пушка была разработана с учётом богатого опыта применения легендарной «Смоки». В сочетании с быстрым корпусом «Гром» становится грозным оружием в руках умелого танкиста. Неумелых танкистов с «Громом» не бывает. Как правило, они быстро взрывают собственные танки и сразу перестают считаться танкистами.\n\nСтраница пушки в <a href=\"https://ru.tankiwiki.com/%D0%93%D1%80%D0%BE%D0%BC\" target=\"_blank\"><u>WikiTO</u></a>.",
+		"descriptionEN":"Medium range turret. Highly explosive projectiles can hit several tanks at the same time.\n\nThe payload of the «Thunder» turret consists entirely of new-generation armor-piercing shells. Such rounds can hit a group of enemies, and the relatively fast reload of this turret will grant you an advantage over heavy enemy tanks. But be careful — in close quarters, it is very easy to damage your own tank.\n\nThis mid-caliber turret was designed with a rich history of using the legendary Smoky turret in mind. When combined with a fast hull, Thunder can turn into a deadly weapon in the hands of a seasoned tanker. Not-so-seasoned tankers do not exist. As a rule, they tend to blow themselves up very quickly and immediately cease to be considered tankers.\n\nMore information about this turret can be found in the <a href=\"https://en.tankiwiki.com/Thunder\" target=\"_blank\"><u>Wiki</u></a>.",
+		"skins":
+		[
+			{
+				"id":"hd",
+				"nameRU":"Стандартные настройки",
+				"nameEN":"Standard settings",
+				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
+				"descriptionEN":"Standard factory settings without any special effects",
+				"isStandard":true,
+				"icon":"standard",
+				"emissionColor":"64255",
+				"emissionColorThreshold":"0.6"
+			},
+			{
+				"id":"xt",
+				"name":"XT",
+				"descriptionRU":"Эксклюзивный Гром XT заставит вас почувствовать себя в шкуре грозного хищного зверя.",
+				"descriptionEN":"The exclusive Thunder XT will give you the feeling of slipping into the skin of a seasoned northern predator.",
+				"icon":"xt",
+				"emissionColor":"16728349",
+				"emissionColorThreshold":"0.4"
+			},
+			{
+				"id":"lc",
+				"name":"Legacy",
+				"descriptionRU":"Legacy-скин для Грома поможет вам окунуться в атмосферу «старых Танков». А если вы старожил игры — сможете вспомнить ваши ощущения от первых боёв.",
+				"descriptionEN":"Legacy-skin for Thunder will help you return to the old atmosphere of Tanki, and if you're a veteran player -- remember your best times going into the first battle.",
+				"icon":"lc",
+				"emissionColor":"16711680",
+				"emissionColorThreshold":"0.1"
+			},
+			{
+				"id":"pr",
+				"name":"Prime",
+				"descriptionRU":"Гром — первая пушка, получившая скин из новой серии Prime. Этот скин подчёркивает брутальность пушки и серьёзность намерений её владельца. Зачем красоваться, когда можно сильно ударить!",
+				"descriptionEN":"Thunder is the first turret to receive a skin from the new Prime series. This skin reflects Thunder's no-nonsense and impactful style. Because a turret doesn't need to show off when it can punch hard.",
+				"icon":"pr",
+				"emissionColor":"16769857",
+				"emissionColorSecond":"907774",
+				"emissionColorThreshold":"0.6"
+			},
+			{
+				"id":"ut",
+				"name":"Ultra",
+				"descriptionRU":"В умелых руках Гром грациозен и смертоносен. А с новым скином Ультра он выглядит ещё круче!",
+				"descriptionEN":"In the right hands, Thunder is as graceful as it is deadly. And with this Ultra skin, it also looks downright cool.",
+				"icon":"ut",
+				"emissionColor":"720890",
+				"emissionColorSecond":"15243011",
+				"emissionColorThreshold":"0.6"
+			},
+			{
+				"id":"gt",
+				"name":"GT",
+				"descriptionRU":"Специальная линейка GT скинов для пушек - это не только отличное дополнение для любого колёсного корпуса, но и проявление особой смелости. Не каждый танкист готов пожертвовать скрытностью и осторожностью на поле боя, ради того, чтобы продемонстрировать всю уникальность и особенность своего танка.",
+				"descriptionEN":"This special series of GT skins for turrets is not just a good addition to any wheeled hull but also a manifestation of extraordinary courage. Not every tanker is ready to sacrifice stealth and caution on the battlefield to flaunt the uniqueness and the peculiarity of his tank in their entirety.\n\nThe latest developments in field tank construction and a special alloy of white metals \"unshackled the hands\" of designers of this product, allowing them for the first time in history to create not only powerful but also beautiful weapons that would otherwise just be gathering dust in a tanker's garage.",
+				"icon":"gt",
+				"emissionColor":"64255",
+				"emissionColorThreshold":"0.6"
+			},
+			{
+				"id":"xt_hd",
+				"name":"XT HD",
+				"descriptionRU":"Серия XT скинов представляет собой коллекцию эксклюзивных обликов для различных танков, каждый из которых обладает уникальными внешним видом. Более детально и масштабно прорисованная модель пушки придаёт ей мощный и эффектный вид. Учтены все, даже самые мелкие детали! Обладатель этого редкого скина всегда находится в центре внимания.",
+				"descriptionEN":"The XT series of skins is a collection of exclusive skins for various tanks, each with its own unique appearance. The model of the turret is more detailed and large-scale, which gives it a powerful and spectacular look. Even the smallest details are taken into account! The owners of these rare skins are always in the spotlight.",
+				"icon":"xt",
+				"emissionColor":"16476172",
+				"emissionColorThreshold":"0.3"
+			},
+			{
+				"id":"dk",
+				"name":"DK",
+				"descriptionRU":"Сила в сочетании с элегантным дизайном. Эта пушка не просто выглядит устрашающе, она создана для доминирования и точных ударов. Символ контроля на каждом поле боя.",
+				"descriptionEN":"Power combined with an elegant design. This turret doesn't just look intimidating, it is designed for domination and precise strikes. A symbol of control on every battlefield.",
+				"icon":"dk",
+				"emissionColor":"16476172",
+				"emissionColorThreshold":"0.3"
+			},
+			{
+				"id":"vt",
+				"name":"VT",
+				"descriptionRU":"Скин VT для пушки — это история возвращения. Потёртая поверхность, следы битв и вмятины на металле говорят о том, через что прошёл этот танк и его владелец. Это не новенький глянцевый блеск, а сдержанная сила и уважение к опыту. Каждая деталь напоминает о сражениях, выдержанных и пережитых, о моментах, когда всё решалось в один выстрел. Линейка VT — для тех, кто ценит не внешнюю показную силу, а глубину, стойкость и характер, проверенный временем.",
+				"descriptionEN":"The VT lineup of skins for turrets is a story of revival. The worn surface, battle scars, and dents on the metal speak of what this tank and its owner have been through. This is not a brand new glossy shine, but a restrained strength and respect for experience. Every detail reminds us of battles endured and lived through, of moments when a single shot decided everything. The VT lineup is for those who value not external flashy strength, but depth, resilience, and a character tested by time.",
+				"icon":"vt",
+				"emissionColor":"65279",
+				"emissionColorThreshold":"0.6"
+			},
+			{
+				"id":"m0",
+				"name":"M0",
+				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
+				"descriptionEN":"Standard factory settings without any special effects",
+				"icon":"m0",
+				"emissionColor":"16711680",
+				"emissionColorThreshold":"0.1"
+			},
+			{
+				"id":"m1",
+				"name":"M1",
+				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
+				"descriptionEN":"Standard factory settings without any special effects",
+				"icon":"m1",
+				"emissionColor":"16711680",
+				"emissionColorThreshold":"0.1"
+			},
+			{
+				"id":"m2",
+				"name":"M2",
+				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
+				"descriptionEN":"Standard factory settings without any special effects",
+				"icon":"m2",
+				"emissionColor":"16711680",
+				"emissionColorThreshold":"0.1"
+			},
+			{
+				"id":"m3",
+				"name":"M3",
+				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
+				"descriptionEN":"Standard factory settings without any special effects",
+				"icon":"m3",
+				"emissionColor":"16711680",
+				"emissionColorThreshold":"0.1"
+			},
+			{
+				"id":"m0_old",
+				"nameRU":"M0 (старый)",
+				"nameEN":"M0 (old)",
+				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
+				"descriptionEN":"Standard factory settings without any special effects",
+				"icon":"m0",
+				"emissionColor":"16711680",
+				"emissionColorThreshold":"0.1"
+			},
+			{
+				"id":"m1_old",
+				"nameRU":"M1 (старый)",
+				"nameEN":"M1 (old)",
+				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
+				"descriptionEN":"Standard factory settings without any special effects",
+				"icon":"m1",
+				"emissionColor":"16711680",
+				"emissionColorThreshold":"0.1"
+			},
+			{
+				"id":"m2_old",
+				"nameRU":"M2 (старый)",
+				"nameEN":"M2 (old)",
+				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
+				"descriptionEN":"Standard factory settings without any special effects",
+				"icon":"m2",
+				"emissionColor":"16711680",
+				"emissionColorThreshold":"0.1"
+			},
+			{
+				"id":"m3_old",
+				"nameRU":"M3 (старый)",
+				"nameEN":"M3 (old)",
+				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
+				"descriptionEN":"Standard factory settings without any special effects",
+				"icon":"m3",
+				"emissionColor":"16711680",
+				"emissionColorThreshold":"0.1"
+			},
+			{
+				"id":"pr_fake",
+				"nameRU":"Prime (неофициальный)",
+				"nameEN":"Prime (unofficial)",
+				"description":"TODO",
+				"icon":"pr",
+				"emissionColor":"14198546",
+				"emissionColorSecond":"15716442",
+				"emissionColorThreshold":"0.4"
+			},
+			{
+				"id":"2.0_m3",
+				"name":"M3 (Tanki Online 2.0)",
+				"description":"TODO",
+				"icon":"2.0",
+				"emissionColor":"16711680",
+				"emissionColorThreshold":"0.1"
+			},
+			{
+				"id":"tx_m2",
+				"name":"M2 (Tanki X)",
+				"descriptionRU":"«Гром» изобрели для ликвидации танковых армий последних государств Азии, когда «Антей» уже был готов объявить о полном контроле над миром. Танки «Х» проходили крещение боем, когда их еще было гораздо меньше, нежели техники прошлого поколения. В этих условиях залогом выживания новых машин войны стал «Гром» с возможностью поражать разрывными снарядами сразу группу противников. А быстрая перезарядка гарантировала быструю и сокрушительную победу.",
+				"descriptionEN":"The Thunder turret was invented to eliminate the tank armies of the most modern Asian states, when Antaeus was ready to announce that it had completely taken over the world. «X» Tanks underwent a baptism of fire at a time when there were still far fewer of them than the previous generation of tanks. Under these conditions, the Thunder turret provided some assurance that the new tanks would be able to survive. The Thunder turret can be used to strike a group of enemies at once using explosive shells. The quick recharge rate ensures that you will achieve a quick and decisive victory.",
+				"icon":"tx",
+				"emissionColor":"4186194",
+				"emissionColorThreshold":"0.6"
+			},
+			{
+				"id":"tx_dreadnought",
+				"nameRU":"Дредноут (Tanki X)",
+				"nameEN":"Dreadnought (Tanki X)",
+				"descriptionRU":"«Гром» изобрели для ликвидации танковых армий последних государств Азии, когда «Антей» уже был готов объявить о полном контроле над миром. Танки «Х» проходили крещение боем, когда их еще было гораздо меньше, нежели техники прошлого поколения. В этих условиях залогом выживания новых машин войны стал «Гром» с возможностью поражать разрывными снарядами сразу группу противников. А быстрая перезарядка гарантировала быструю и сокрушительную победу.",
+				"descriptionEN":"The Thunder turret was invented to eliminate the tank armies of the most modern Asian states, when Antaeus was ready to announce that it had completely taken over the world. «X» Tanks underwent a baptism of fire at a time when there were still far fewer of them than the previous generation of tanks. Under these conditions, the Thunder turret provided some assurance that the new tanks would be able to survive. The Thunder turret can be used to strike a group of enemies at once using explosive shells. The quick recharge rate ensures that you will achieve a quick and decisive victory.",
+				"icon":"tx",
+				"emissionColor":"4521983",
+				"emissionColorThreshold":"0.4"
+			},
+			{
+				"id":"tx_xt",
+				"name":"XT (Tanki X)",
+				"descriptionRU":"«Гром» изобрели для ликвидации танковых армий последних государств Азии, когда «Антей» уже был готов объявить о полном контроле над миром. Танки «Х» проходили крещение боем, когда их еще было гораздо меньше, нежели техники прошлого поколения. В этих условиях залогом выживания новых машин войны стал «Гром» с возможностью поражать разрывными снарядами сразу группу противников. А быстрая перезарядка гарантировала быструю и сокрушительную победу.",
+				"descriptionEN":"The Thunder turret was invented to eliminate the tank armies of the most modern Asian states, when Antaeus was ready to announce that it had completely taken over the world. «X» Tanks underwent a baptism of fire at a time when there were still far fewer of them than the previous generation of tanks. Under these conditions, the Thunder turret provided some assurance that the new tanks would be able to survive. The Thunder turret can be used to strike a group of enemies at once using explosive shells. The quick recharge rate ensures that you will achieve a quick and decisive victory.",
+				"icon":"tx",
+				"emissionColor":"4521983",
+				"emissionColorThreshold":"0.4"
+			},
+			{
+				"id":"tx_victory_day",
+				"nameRU":"День Победы (Tanki X)",
+				"nameEN":"Victory Day (Tanki X)",
+				"descriptionRU":"«Гром» изобрели для ликвидации танковых армий последних государств Азии, когда «Антей» уже был готов объявить о полном контроле над миром. Танки «Х» проходили крещение боем, когда их еще было гораздо меньше, нежели техники прошлого поколения. В этих условиях залогом выживания новых машин войны стал «Гром» с возможностью поражать разрывными снарядами сразу группу противников. А быстрая перезарядка гарантировала быструю и сокрушительную победу.",
+				"descriptionEN":"The Thunder turret was invented to eliminate the tank armies of the most modern Asian states, when Antaeus was ready to announce that it had completely taken over the world. «X» Tanks underwent a baptism of fire at a time when there were still far fewer of them than the previous generation of tanks. Under these conditions, the Thunder turret provided some assurance that the new tanks would be able to survive. The Thunder turret can be used to strike a group of enemies at once using explosive shells. The quick recharge rate ensures that you will achieve a quick and decisive victory.",
+				"icon":"tx",
+				"emissionColor":"4521983",
+				"emissionColorThreshold":"0.4"
+			}
+		],
+		"devices":
+		[
+			{
+				"id":"standard",
+				"nameRU":"Стандартные настройки",
+				"nameEN":"Standard settings",
+				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
+				"descriptionEN":"Standard factory settings without any special effects"
+			},
+			{
+				"id":"small_caliber_charging_machine",
+				"nameRU":"Автомат заряжания малого калибра",
+				"nameEN":"Small caliber charging machine",
+				"descriptionRU":"Использование снарядов уменьшенного калибра вместе с автоматом заряжания позволяет сократить время перезарядки. Малокалиберные снаряды наносят пониженный урон.",
+				"descriptionEN":"Using small caliber rounds in combination with the charging machine allows to reduce the reload time. Small caliber rounds deal less damage."
+			},
+			{
+				"id":"subcaliber_rounds",
+				"nameRU":"Подкалиберные снаряды",
+				"nameEN":"Subcaliber rounds",
+				"descriptionRU":"Замена осколочного снаряда боеприпасом проникающего типа с большой кинетической энергией. Такой снаряд не разрывается при попадании в танк или препятствие и не может нанести урон самому стрелку.",
+				"descriptionEN":"Replacement for the frag round with a penetrating ammo type and huge kinetic energy. Such rounds don't explode upon hitting a tank or an obstacle and cannot damage the shooter themselves."
+			},
+			{
+				"id":"sledgehammer_rounds",
+				"nameRU":"Снаряды «Кувалда»",
+				"nameEN":"«Sledgehammer» rounds",
+				"descriptionRU":"Урон увеличен, а дальность поражения и скорость снарядов уменьшены. Критический урон отсутствует.\nСнаряды с толстенной оболочкой из литого чугуна замедляют скорость полёта снарядов и уменьшают дистанцию поражения противника на дальнем расстоянии, однако за счёт своей массивности наносят более высокий урон.",
+				"descriptionEN":"Rounds with thick lead casting slow down the projectile speed and reduce firing range, but the massive projectile size allows for a noticeable increase in damage."
+			},
+			{
+				"id":"strict_ammunition_load",
+				"nameRU":"Строгая погрузка боеприпасов",
+				"nameEN":"Strict ammunition load",
+				"descriptionRU":"Автомат заряжания с упорядоченной боеукладкой снарядов позволяет достичь более высокой скорострельности и гарантировать, что каждый третий снаряд будет наносить критический урон.",
+				"descriptionEN":"An autoloader with sorted ammunition allows you to reach a greater rate of fire, and guarantees that every third shell deals critical damage."
+			},
+			{
+				"id":"salamander_shells",
+				"nameRU":"Снаряды «Саламандра»",
+				"nameEN":"«Salamander» shells",
+				"descriptionRU":"Добавляет в боекомплект несколько зажигательных снарядов. При критическом попадании такие снаряды способны поджечь сразу несколько целей.",
+				"descriptionEN":"Adds a few incendiary shells to the ammunition. On a critical hit, such shells can burn multiple tanks at once."
+			},
+			{
+				"id":"wyvern_shells",
+				"nameRU":"Снаряды «Виверна»",
+				"nameEN":"«Wyvern» shells",
+				"descriptionRU":"Добавляет в боекомплект несколько снарядов с криогенным сердечником. При критическом попадании такой снаряд способен заморозить сразу несколько целей.",
+				"descriptionEN":"Adds a few shells with a cryo core to the ammunition. On a critical hit, such shells can freeze multiple tanks at once."
+			},
+			{
+				"id":"peacekeeper_shells",
+				"nameRU":"Снаряды «Миротворец»",
+				"nameEN":"«Peacekeeper» shells",
+				"descriptionRU":"Добавляет в боекомплект несколько оглушающих снарядов с огромной ударной силой. При критическом попадании такой снаряд способен остановить сразу несколько целей.",
+				"descriptionEN":"Adds a few stunning shells with a huge impact force to the ammunition. On a critical hit, such shells can immobilise multiple tanks at once."
+			},
+			{
+				"id":"hyperspeed_shells",
+				"nameRU":"Гиперскоростные снаряды",
+				"nameEN":"«Hyperspeed» shells",
+				"descriptionRU":"Управляемые снаряды с запредельной мощностью, урон которых увеличивается с расстоянием. Взрыв такого снаряда рядом с собственным танком может его уничтожить. Чтобы этого не произошло, начальная скорость снаряда значительно увеличена, а специальная система ограничивает урон до тех пор, пока снаряд не уйдёт далеко от танка.",
+				"descriptionEN":"Controlled shells with incredible power the damage of which increases with distance. An explosion of such a shell near one’s own tank can destroy it. To avoid it, the initial speed of shells is significantly increased and the special system limits the number of damage until the shell flies far from the tank."
+			},
+			{
+				"id":"adaptive_reload",
+				"nameRU":"Адаптивная перезарядка",
+				"nameEN":"Adaptive reload",
+				"descriptionRU":"Передача контроля над системой перезарядки искусственному интеллекту. Попадание в противника мотивирует ИИ значительно ускорять перезарядку следующего выстрела. Научить перезаряжать каждый выстрел быстрее, независимо от попадания или промаха, пока никому не удалось.",
+				"descriptionEN":"Passes control over the turret’s reloading system to an Artificial Intelligence (AI). Hits motivate AI to significantly decrease reload duration for the next shot. Unfortunately, so far no one has succeeded to teach the AI how to reload each shot faster, regardless of hit or miss."
+			},
+			{
+				"id":"anvil_shells",
+				"nameRU":"Снаряды «Наковальня»",
+				"nameEN":"«Anvil» shells",
+				"descriptionRU":"Обычный и критический уроны повышены. Критический урон наносится в радиусе взрыва снаряда. Дальность поражения становится меньше.\nЭто усовершенствованный снаряд с дополнительным пороховым зарядом, способный наносить повышенный критический и обычный уроны всем целям в радиусе взрыва, а не только при прямом попадании. Такой снаряд уменьшает дистанцию поражения противника на дальнем расстоянии.",
+				"descriptionEN":"Enhanced shells with additional charges of gunpowder. They can deal critical damage to all targets in a range of explosion, not just by direct hits."
+			}
+		],
+		"shotSkins":
+		[
+			{
+				"id":"standard",
+				"nameRU":"Стандартные настройки",
+				"nameEN":"Standard settings",
+				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
+				"descriptionEN":"Standard factory settings without any special effects",
+				"isStandard":true
+			},
+			{
+				"id":"blood_fake",
+				"nameRU":"Кровавый (неофициальный)",
+				"nameEN":"Blood (unofficial)",
+				"descriptionRU":"Вы не можете пустить кровь танкам, но этот эффект выстрела — отличная альтернатива.",
+				"descriptionEN":"Tanks don't bleed, but here's a good alternative."
+			}
+		]
+	},
+	{
 		"id":"flamethrower",
 		"nameRU":"Огнемёт",
 		"nameEN":"Firebird",
@@ -2799,331 +3124,6 @@
 				"nameEN":"Mysterious red",
 				"descriptionRU":"Почему «Таинственный»? Потому что это один из тех трудноуловимых, неземных, ошеломляющих оттенков красного, которые поражают воображение. И потому что это звучит круто.",
 				"descriptionEN":"Why \"mysterious\"? Because it's one of those undefinable, ethereal, confounding shades of red that boggles the mind. And because it sounds cool."
-			}
-		]
-	},
-	{
-		"id":"thunder",
-		"nameRU":"Гром",
-		"nameEN":"Thunder",
-		"descriptionRU":"Пушка средней дальности. Разрывные снаряды могут поразить несколько танков одновременно.\n\nБоекомплект пушки «Гром» полностью состоит из универсальных бронебойно-фугасных снарядов нового поколения. Такие снаряды позволяют атаковать группу соперников, а относительно быстрая перезарядка пушки поможет получить неоспоримое преимущество перед тяжёлыми танками противника. Но нужно быть осторожным — в ближнем бою очень легко повредить собственный танк.\n\nЭта среднекалиберная пушка была разработана с учётом богатого опыта применения легендарной «Смоки». В сочетании с быстрым корпусом «Гром» становится грозным оружием в руках умелого танкиста. Неумелых танкистов с «Громом» не бывает. Как правило, они быстро взрывают собственные танки и сразу перестают считаться танкистами.\n\nСтраница пушки в <a href=\"https://ru.tankiwiki.com/%D0%93%D1%80%D0%BE%D0%BC\" target=\"_blank\"><u>WikiTO</u></a>.",
-		"descriptionEN":"Medium range turret. Highly explosive projectiles can hit several tanks at the same time.\n\nThe payload of the «Thunder» turret consists entirely of new-generation armor-piercing shells. Such rounds can hit a group of enemies, and the relatively fast reload of this turret will grant you an advantage over heavy enemy tanks. But be careful — in close quarters, it is very easy to damage your own tank.\n\nThis mid-caliber turret was designed with a rich history of using the legendary Smoky turret in mind. When combined with a fast hull, Thunder can turn into a deadly weapon in the hands of a seasoned tanker. Not-so-seasoned tankers do not exist. As a rule, they tend to blow themselves up very quickly and immediately cease to be considered tankers.\n\nMore information about this turret can be found in the <a href=\"https://en.tankiwiki.com/Thunder\" target=\"_blank\"><u>Wiki</u></a>.",
-		"skins":
-		[
-			{
-				"id":"hd",
-				"nameRU":"Стандартные настройки",
-				"nameEN":"Standard settings",
-				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
-				"descriptionEN":"Standard factory settings without any special effects",
-				"isStandard":true,
-				"icon":"standard",
-				"emissionColor":"64255",
-				"emissionColorThreshold":"0.6"
-			},
-			{
-				"id":"xt",
-				"name":"XT",
-				"descriptionRU":"Эксклюзивный Гром XT заставит вас почувствовать себя в шкуре грозного хищного зверя.",
-				"descriptionEN":"The exclusive Thunder XT will give you the feeling of slipping into the skin of a seasoned northern predator.",
-				"icon":"xt",
-				"emissionColor":"16728349",
-				"emissionColorThreshold":"0.4"
-			},
-			{
-				"id":"lc",
-				"name":"Legacy",
-				"descriptionRU":"Legacy-скин для Грома поможет вам окунуться в атмосферу «старых Танков». А если вы старожил игры — сможете вспомнить ваши ощущения от первых боёв.",
-				"descriptionEN":"Legacy-skin for Thunder will help you return to the old atmosphere of Tanki, and if you're a veteran player -- remember your best times going into the first battle.",
-				"icon":"lc",
-				"emissionColor":"16711680",
-				"emissionColorThreshold":"0.1"
-			},
-			{
-				"id":"pr",
-				"name":"Prime",
-				"descriptionRU":"Гром — первая пушка, получившая скин из новой серии Prime. Этот скин подчёркивает брутальность пушки и серьёзность намерений её владельца. Зачем красоваться, когда можно сильно ударить!",
-				"descriptionEN":"Thunder is the first turret to receive a skin from the new Prime series. This skin reflects Thunder's no-nonsense and impactful style. Because a turret doesn't need to show off when it can punch hard.",
-				"icon":"pr",
-				"emissionColor":"16769857",
-				"emissionColorSecond":"907774",
-				"emissionColorThreshold":"0.6"
-			},
-			{
-				"id":"ut",
-				"name":"Ultra",
-				"descriptionRU":"В умелых руках Гром грациозен и смертоносен. А с новым скином Ультра он выглядит ещё круче!",
-				"descriptionEN":"In the right hands, Thunder is as graceful as it is deadly. And with this Ultra skin, it also looks downright cool.",
-				"icon":"ut",
-				"emissionColor":"720890",
-				"emissionColorSecond":"15243011",
-				"emissionColorThreshold":"0.6"
-			},
-			{
-				"id":"gt",
-				"name":"GT",
-				"descriptionRU":"Специальная линейка GT скинов для пушек - это не только отличное дополнение для любого колёсного корпуса, но и проявление особой смелости. Не каждый танкист готов пожертвовать скрытностью и осторожностью на поле боя, ради того, чтобы продемонстрировать всю уникальность и особенность своего танка.",
-				"descriptionEN":"This special series of GT skins for turrets is not just a good addition to any wheeled hull but also a manifestation of extraordinary courage. Not every tanker is ready to sacrifice stealth and caution on the battlefield to flaunt the uniqueness and the peculiarity of his tank in their entirety.\n\nThe latest developments in field tank construction and a special alloy of white metals \"unshackled the hands\" of designers of this product, allowing them for the first time in history to create not only powerful but also beautiful weapons that would otherwise just be gathering dust in a tanker's garage.",
-				"icon":"gt",
-				"emissionColor":"64255",
-				"emissionColorThreshold":"0.6"
-			},
-			{
-				"id":"xt_hd",
-				"name":"XT HD",
-				"descriptionRU":"Серия XT скинов представляет собой коллекцию эксклюзивных обликов для различных танков, каждый из которых обладает уникальными внешним видом. Более детально и масштабно прорисованная модель пушки придаёт ей мощный и эффектный вид. Учтены все, даже самые мелкие детали! Обладатель этого редкого скина всегда находится в центре внимания.",
-				"descriptionEN":"The XT series of skins is a collection of exclusive skins for various tanks, each with its own unique appearance. The model of the turret is more detailed and large-scale, which gives it a powerful and spectacular look. Even the smallest details are taken into account! The owners of these rare skins are always in the spotlight.",
-				"icon":"xt",
-				"emissionColor":"16476172",
-				"emissionColorThreshold":"0.3"
-			},
-			{
-				"id":"dk",
-				"name":"DK",
-				"descriptionRU":"Сила в сочетании с элегантным дизайном. Эта пушка не просто выглядит устрашающе, она создана для доминирования и точных ударов. Символ контроля на каждом поле боя.",
-				"descriptionEN":"Power combined with an elegant design. This turret doesn't just look intimidating, it is designed for domination and precise strikes. A symbol of control on every battlefield.",
-				"icon":"dk",
-				"emissionColor":"16476172",
-				"emissionColorThreshold":"0.3"
-			},
-			{
-				"id":"vt",
-				"name":"VT",
-				"descriptionRU":"Скин VT для пушки — это история возвращения. Потёртая поверхность, следы битв и вмятины на металле говорят о том, через что прошёл этот танк и его владелец. Это не новенький глянцевый блеск, а сдержанная сила и уважение к опыту. Каждая деталь напоминает о сражениях, выдержанных и пережитых, о моментах, когда всё решалось в один выстрел. Линейка VT — для тех, кто ценит не внешнюю показную силу, а глубину, стойкость и характер, проверенный временем.",
-				"descriptionEN":"The VT lineup of skins for turrets is a story of revival. The worn surface, battle scars, and dents on the metal speak of what this tank and its owner have been through. This is not a brand new glossy shine, but a restrained strength and respect for experience. Every detail reminds us of battles endured and lived through, of moments when a single shot decided everything. The VT lineup is for those who value not external flashy strength, but depth, resilience, and a character tested by time.",
-				"icon":"vt",
-				"emissionColor":"65279",
-				"emissionColorThreshold":"0.6"
-			},
-			{
-				"id":"m0",
-				"name":"M0",
-				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
-				"descriptionEN":"Standard factory settings without any special effects",
-				"icon":"m0",
-				"emissionColor":"16711680",
-				"emissionColorThreshold":"0.1"
-			},
-			{
-				"id":"m1",
-				"name":"M1",
-				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
-				"descriptionEN":"Standard factory settings without any special effects",
-				"icon":"m1",
-				"emissionColor":"16711680",
-				"emissionColorThreshold":"0.1"
-			},
-			{
-				"id":"m2",
-				"name":"M2",
-				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
-				"descriptionEN":"Standard factory settings without any special effects",
-				"icon":"m2",
-				"emissionColor":"16711680",
-				"emissionColorThreshold":"0.1"
-			},
-			{
-				"id":"m3",
-				"name":"M3",
-				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
-				"descriptionEN":"Standard factory settings without any special effects",
-				"icon":"m3",
-				"emissionColor":"16711680",
-				"emissionColorThreshold":"0.1"
-			},
-			{
-				"id":"m0_old",
-				"nameRU":"M0 (старый)",
-				"nameEN":"M0 (old)",
-				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
-				"descriptionEN":"Standard factory settings without any special effects",
-				"icon":"m0",
-				"emissionColor":"16711680",
-				"emissionColorThreshold":"0.1"
-			},
-			{
-				"id":"m1_old",
-				"nameRU":"M1 (старый)",
-				"nameEN":"M1 (old)",
-				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
-				"descriptionEN":"Standard factory settings without any special effects",
-				"icon":"m1",
-				"emissionColor":"16711680",
-				"emissionColorThreshold":"0.1"
-			},
-			{
-				"id":"m2_old",
-				"nameRU":"M2 (старый)",
-				"nameEN":"M2 (old)",
-				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
-				"descriptionEN":"Standard factory settings without any special effects",
-				"icon":"m2",
-				"emissionColor":"16711680",
-				"emissionColorThreshold":"0.1"
-			},
-			{
-				"id":"m3_old",
-				"nameRU":"M3 (старый)",
-				"nameEN":"M3 (old)",
-				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
-				"descriptionEN":"Standard factory settings without any special effects",
-				"icon":"m3",
-				"emissionColor":"16711680",
-				"emissionColorThreshold":"0.1"
-			},
-			{
-				"id":"pr_fake",
-				"nameRU":"Prime (неофициальный)",
-				"nameEN":"Prime (unofficial)",
-				"description":"TODO",
-				"icon":"pr",
-				"emissionColor":"14198546",
-				"emissionColorSecond":"15716442",
-				"emissionColorThreshold":"0.4"
-			},
-			{
-				"id":"2.0_m3",
-				"name":"M3 (Tanki Online 2.0)",
-				"description":"TODO",
-				"icon":"2.0",
-				"emissionColor":"16711680",
-				"emissionColorThreshold":"0.1"
-			},
-			{
-				"id":"tx_m2",
-				"name":"M2 (Tanki X)",
-				"descriptionRU":"«Гром» изобрели для ликвидации танковых армий последних государств Азии, когда «Антей» уже был готов объявить о полном контроле над миром. Танки «Х» проходили крещение боем, когда их еще было гораздо меньше, нежели техники прошлого поколения. В этих условиях залогом выживания новых машин войны стал «Гром» с возможностью поражать разрывными снарядами сразу группу противников. А быстрая перезарядка гарантировала быструю и сокрушительную победу.",
-				"descriptionEN":"The Thunder turret was invented to eliminate the tank armies of the most modern Asian states, when Antaeus was ready to announce that it had completely taken over the world. «X» Tanks underwent a baptism of fire at a time when there were still far fewer of them than the previous generation of tanks. Under these conditions, the Thunder turret provided some assurance that the new tanks would be able to survive. The Thunder turret can be used to strike a group of enemies at once using explosive shells. The quick recharge rate ensures that you will achieve a quick and decisive victory.",
-				"icon":"tx",
-				"emissionColor":"4186194",
-				"emissionColorThreshold":"0.6"
-			},
-			{
-				"id":"tx_dreadnought",
-				"nameRU":"Дредноут (Tanki X)",
-				"nameEN":"Dreadnought (Tanki X)",
-				"descriptionRU":"«Гром» изобрели для ликвидации танковых армий последних государств Азии, когда «Антей» уже был готов объявить о полном контроле над миром. Танки «Х» проходили крещение боем, когда их еще было гораздо меньше, нежели техники прошлого поколения. В этих условиях залогом выживания новых машин войны стал «Гром» с возможностью поражать разрывными снарядами сразу группу противников. А быстрая перезарядка гарантировала быструю и сокрушительную победу.",
-				"descriptionEN":"The Thunder turret was invented to eliminate the tank armies of the most modern Asian states, when Antaeus was ready to announce that it had completely taken over the world. «X» Tanks underwent a baptism of fire at a time when there were still far fewer of them than the previous generation of tanks. Under these conditions, the Thunder turret provided some assurance that the new tanks would be able to survive. The Thunder turret can be used to strike a group of enemies at once using explosive shells. The quick recharge rate ensures that you will achieve a quick and decisive victory.",
-				"icon":"tx",
-				"emissionColor":"4521983",
-				"emissionColorThreshold":"0.4"
-			},
-			{
-				"id":"tx_xt",
-				"name":"XT (Tanki X)",
-				"descriptionRU":"«Гром» изобрели для ликвидации танковых армий последних государств Азии, когда «Антей» уже был готов объявить о полном контроле над миром. Танки «Х» проходили крещение боем, когда их еще было гораздо меньше, нежели техники прошлого поколения. В этих условиях залогом выживания новых машин войны стал «Гром» с возможностью поражать разрывными снарядами сразу группу противников. А быстрая перезарядка гарантировала быструю и сокрушительную победу.",
-				"descriptionEN":"The Thunder turret was invented to eliminate the tank armies of the most modern Asian states, when Antaeus was ready to announce that it had completely taken over the world. «X» Tanks underwent a baptism of fire at a time when there were still far fewer of them than the previous generation of tanks. Under these conditions, the Thunder turret provided some assurance that the new tanks would be able to survive. The Thunder turret can be used to strike a group of enemies at once using explosive shells. The quick recharge rate ensures that you will achieve a quick and decisive victory.",
-				"icon":"tx",
-				"emissionColor":"4521983",
-				"emissionColorThreshold":"0.4"
-			},
-			{
-				"id":"tx_victory_day",
-				"nameRU":"День Победы (Tanki X)",
-				"nameEN":"Victory Day (Tanki X)",
-				"descriptionRU":"«Гром» изобрели для ликвидации танковых армий последних государств Азии, когда «Антей» уже был готов объявить о полном контроле над миром. Танки «Х» проходили крещение боем, когда их еще было гораздо меньше, нежели техники прошлого поколения. В этих условиях залогом выживания новых машин войны стал «Гром» с возможностью поражать разрывными снарядами сразу группу противников. А быстрая перезарядка гарантировала быструю и сокрушительную победу.",
-				"descriptionEN":"The Thunder turret was invented to eliminate the tank armies of the most modern Asian states, when Antaeus was ready to announce that it had completely taken over the world. «X» Tanks underwent a baptism of fire at a time when there were still far fewer of them than the previous generation of tanks. Under these conditions, the Thunder turret provided some assurance that the new tanks would be able to survive. The Thunder turret can be used to strike a group of enemies at once using explosive shells. The quick recharge rate ensures that you will achieve a quick and decisive victory.",
-				"icon":"tx",
-				"emissionColor":"4521983",
-				"emissionColorThreshold":"0.4"
-			}
-		],
-		"devices":
-		[
-			{
-				"id":"standard",
-				"nameRU":"Стандартные настройки",
-				"nameEN":"Standard settings",
-				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
-				"descriptionEN":"Standard factory settings without any special effects"
-			},
-			{
-				"id":"small_caliber_charging_machine",
-				"nameRU":"Автомат заряжания малого калибра",
-				"nameEN":"Small caliber charging machine",
-				"descriptionRU":"Использование снарядов уменьшенного калибра вместе с автоматом заряжания позволяет сократить время перезарядки. Малокалиберные снаряды наносят пониженный урон.",
-				"descriptionEN":"Using small caliber rounds in combination with the charging machine allows to reduce the reload time. Small caliber rounds deal less damage."
-			},
-			{
-				"id":"subcaliber_rounds",
-				"nameRU":"Подкалиберные снаряды",
-				"nameEN":"Subcaliber rounds",
-				"descriptionRU":"Замена осколочного снаряда боеприпасом проникающего типа с большой кинетической энергией. Такой снаряд не разрывается при попадании в танк или препятствие и не может нанести урон самому стрелку.",
-				"descriptionEN":"Replacement for the frag round with a penetrating ammo type and huge kinetic energy. Such rounds don't explode upon hitting a tank or an obstacle and cannot damage the shooter themselves."
-			},
-			{
-				"id":"sledgehammer_rounds",
-				"nameRU":"Снаряды «Кувалда»",
-				"nameEN":"«Sledgehammer» rounds",
-				"descriptionRU":"Урон увеличен, а дальность поражения и скорость снарядов уменьшены. Критический урон отсутствует.\nСнаряды с толстенной оболочкой из литого чугуна замедляют скорость полёта снарядов и уменьшают дистанцию поражения противника на дальнем расстоянии, однако за счёт своей массивности наносят более высокий урон.",
-				"descriptionEN":"Rounds with thick lead casting slow down the projectile speed and reduce firing range, but the massive projectile size allows for a noticeable increase in damage."
-			},
-			{
-				"id":"strict_ammunition_load",
-				"nameRU":"Строгая погрузка боеприпасов",
-				"nameEN":"Strict ammunition load",
-				"descriptionRU":"Автомат заряжания с упорядоченной боеукладкой снарядов позволяет достичь более высокой скорострельности и гарантировать, что каждый третий снаряд будет наносить критический урон.",
-				"descriptionEN":"An autoloader with sorted ammunition allows you to reach a greater rate of fire, and guarantees that every third shell deals critical damage."
-			},
-			{
-				"id":"salamander_shells",
-				"nameRU":"Снаряды «Саламандра»",
-				"nameEN":"«Salamander» shells",
-				"descriptionRU":"Добавляет в боекомплект несколько зажигательных снарядов. При критическом попадании такие снаряды способны поджечь сразу несколько целей.",
-				"descriptionEN":"Adds a few incendiary shells to the ammunition. On a critical hit, such shells can burn multiple tanks at once."
-			},
-			{
-				"id":"wyvern_shells",
-				"nameRU":"Снаряды «Виверна»",
-				"nameEN":"«Wyvern» shells",
-				"descriptionRU":"Добавляет в боекомплект несколько снарядов с криогенным сердечником. При критическом попадании такой снаряд способен заморозить сразу несколько целей.",
-				"descriptionEN":"Adds a few shells with a cryo core to the ammunition. On a critical hit, such shells can freeze multiple tanks at once."
-			},
-			{
-				"id":"peacekeeper_shells",
-				"nameRU":"Снаряды «Миротворец»",
-				"nameEN":"«Peacekeeper» shells",
-				"descriptionRU":"Добавляет в боекомплект несколько оглушающих снарядов с огромной ударной силой. При критическом попадании такой снаряд способен остановить сразу несколько целей.",
-				"descriptionEN":"Adds a few stunning shells with a huge impact force to the ammunition. On a critical hit, such shells can immobilise multiple tanks at once."
-			},
-			{
-				"id":"hyperspeed_shells",
-				"nameRU":"Гиперскоростные снаряды",
-				"nameEN":"«Hyperspeed» shells",
-				"descriptionRU":"Управляемые снаряды с запредельной мощностью, урон которых увеличивается с расстоянием. Взрыв такого снаряда рядом с собственным танком может его уничтожить. Чтобы этого не произошло, начальная скорость снаряда значительно увеличена, а специальная система ограничивает урон до тех пор, пока снаряд не уйдёт далеко от танка.",
-				"descriptionEN":"Controlled shells with incredible power the damage of which increases with distance. An explosion of such a shell near one’s own tank can destroy it. To avoid it, the initial speed of shells is significantly increased and the special system limits the number of damage until the shell flies far from the tank."
-			},
-			{
-				"id":"adaptive_reload",
-				"nameRU":"Адаптивная перезарядка",
-				"nameEN":"Adaptive reload",
-				"descriptionRU":"Передача контроля над системой перезарядки искусственному интеллекту. Попадание в противника мотивирует ИИ значительно ускорять перезарядку следующего выстрела. Научить перезаряжать каждый выстрел быстрее, независимо от попадания или промаха, пока никому не удалось.",
-				"descriptionEN":"Passes control over the turret’s reloading system to an Artificial Intelligence (AI). Hits motivate AI to significantly decrease reload duration for the next shot. Unfortunately, so far no one has succeeded to teach the AI how to reload each shot faster, regardless of hit or miss."
-			},
-			{
-				"id":"anvil_shells",
-				"nameRU":"Снаряды «Наковальня»",
-				"nameEN":"«Anvil» shells",
-				"descriptionRU":"Обычный и критический уроны повышены. Критический урон наносится в радиусе взрыва снаряда. Дальность поражения становится меньше.\nЭто усовершенствованный снаряд с дополнительным пороховым зарядом, способный наносить повышенный критический и обычный уроны всем целям в радиусе взрыва, а не только при прямом попадании. Такой снаряд уменьшает дистанцию поражения противника на дальнем расстоянии.",
-				"descriptionEN":"Enhanced shells with additional charges of gunpowder. They can deal critical damage to all targets in a range of explosion, not just by direct hits."
-			}
-		],
-		"shotSkins":
-		[
-			{
-				"id":"standard",
-				"nameRU":"Стандартные настройки",
-				"nameEN":"Standard settings",
-				"descriptionRU":"Стандартные заводские настройки без специальных эффектов",
-				"descriptionEN":"Standard factory settings without any special effects",
-				"isStandard":true
-			},
-			{
-				"id":"blood_fake",
-				"nameRU":"Кровавый (неофициальный)",
-				"nameEN":"Blood (unofficial)",
-				"descriptionRU":"Вы не можете пустить кровь танкам, но этот эффект выстрела — отличная альтернатива.",
-				"descriptionEN":"Tanks don't bleed, but here's a good alternative."
 			}
 		]
 	},
