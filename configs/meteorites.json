@@ -1,0 +1,22 @@
+[
+	{
+		"id":"hd",
+		"nameRU":"Стандартный",
+		"nameEN":"Standard"
+	},
+	{
+		"id":"christmas",
+		"name":"Рождественская ёлка",
+		"nameEN":"Christmas Tree"
+	},
+	{
+		"id":"rocket",
+		"name":"Ракета",
+		"nameEN":"Rocket"
+	},
+	{
+		"id":"ufo",
+		"name":"НЛО",
+		"nameEN":"UFO"
+	}
+]

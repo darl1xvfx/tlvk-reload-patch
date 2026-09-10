@@ -1,0 +1,185 @@
+[
+	{
+		"id":"hills_day",
+		"nameRU":"Холмы день",
+		"nameEN":"Hills day"
+	},
+	{
+		"id":"hills_night",
+		"nameRU":"Холмы ночь",
+		"nameEN":"Hills night"
+	},
+	{
+		"id":"hills_old",
+		"nameRU":"Холмы (старые зелёные)",
+		"nameEN":"Hills (old green)"
+	},
+	{
+		"id":"hills_old_gray",
+		"nameRU":"Холмы (старые)",
+		"nameEN":"Hills (old)"
+	},
+	{
+		"id":"hills_old_gray_quest",
+		"nameRU":"Холмы (старые квестовые)",
+		"nameEN":"Hills (old quest)"
+	},
+	{
+		"id":"mountains_day",
+		"nameRU":"Горы день",
+		"nameEN":"Mountains day"
+	},
+	{
+		"id":"mountains_night",
+		"nameRU":"Горы ночь",
+		"nameEN":"Mountains night"
+	},
+	{
+		"id":"mountains_old",
+		"nameRU":"Горы (старые)",
+		"nameEN":"Mountains (old)"
+	},
+	{
+		"id":"urban_day",
+		"nameRU":"Город день",
+		"nameEN":"Urban day"
+	},
+	{
+		"id":"urban_night",
+		"nameRU":"Город ночь",
+		"nameEN":"Urban night"
+	},
+	{
+		"id":"rio_day",
+		"nameRU":"Рио день",
+		"nameEN":"Rio day"
+	},
+	{
+		"id":"rio_night",
+		"nameRU":"Рио ночь",
+		"nameEN":"Rio night"
+	},
+	{
+		"id":"iran_day",
+		"nameRU":"Иран",
+		"nameEN":"Iran"
+	},
+	{
+		"id":"iran_old",
+		"nameRU":"Иран (старый)",
+		"nameEN":"Iran (old)"
+	},
+	{
+		"id":"iran_winter_day",
+		"nameRU":"Иран зима",
+		"nameEN":"Iran winter"
+	},
+	{
+		"id":"desert_day",
+		"nameRU":"Пустыня",
+		"nameEN":"Desert"
+	},
+	{
+		"id":"cologne_day",
+		"nameRU":"Кёльн",
+		"nameEN":"Cologne"
+	},
+	{
+		"id":"remaster_day",
+		"nameRU":"Remaster день",
+		"nameEN":"Remaster day"
+	},
+	{
+		"id":"remaster_evening",
+		"nameRU":"Remaster вечер",
+		"nameEN":"Remaster evening"
+	},
+	{
+		"id":"remaster_autumn",
+		"nameRU":"Remaster осень",
+		"nameEN":"Remaster autumn"
+	},
+	{
+		"id":"winter_day",
+		"nameRU":"Зима",
+		"nameEN":"Winter"
+	},
+	{
+		"id":"winter_old",
+		"nameRU":"Зима (старая)",
+		"nameEN":"Winter (old)"
+	},
+	{
+		"id":"space_day",
+		"nameRU":"Космос",
+		"nameEN":"Space",
+		"revolutionSpeed":0.015
+	},
+	{
+		"id":"space_halloween_day",
+		"nameRU":"Космос (хэллоуин)",
+		"nameEN":"Space (halloween)",
+		"revolutionSpeed":0.015
+	},
+	{
+		"id":"halloween",
+		"nameRU":"Хэллоуин",
+		"nameEN":"Halloween"
+	},
+	{
+		"id":"moon_night",
+		"nameRU":"Луна",
+		"nameEN":"Moon",
+		"revolutionSpeed":0.015
+	},
+	{
+		"id":"new_year",
+		"nameRU":"Новый Год",
+		"nameEN":"New Year"
+	},
+	{
+		"id":"red_sky",
+		"nameRU":"Красное небо",
+		"nameEN":"Red sky"
+	},
+	{
+		"id":"release_1.100_day",
+		"nameRU":"Релиз 1.100",
+		"nameEN":"Release 1.100"
+	},
+	{
+		"id":"2.0_morning",
+		"nameRU":"Утро (Tanki Online 2.0)",
+		"nameEN":"Morning (Tanki Online 2.0)"
+	},
+	{
+		"id":"2.0_day",
+		"nameRU":"День (Tanki Online 2.0)",
+		"nameEN":"Day (Tanki Online 2.0)"
+	},
+	{
+		"id":"2.0_evening",
+		"nameRU":"Вечер (Tanki Online 2.0)",
+		"nameEN":"Evening (Tanki Online 2.0)"
+	},
+	{
+		"id":"2.0_night",
+		"nameRU":"Ночь (Tanki Online 2.0)",
+		"nameEN":"Night (Tanki Online 2.0)"
+	},
+	{
+		"id":"2.0_arena_night",
+		"nameRU":"Арена (Tanki Online 2.0)",
+		"nameEN":"Arena (Tanki Online 2.0)"
+	},
+	{
+		"id":"2.0_crash_day",
+		"nameRU":"Крушение (Tanki Online 2.0)",
+		"nameEN":"Crash (Tanki Online 2.0)"
+	},
+	{
+		"id":"tx_moon_night",
+		"nameRU":"Луна (Tanki X)",
+		"nameEN":"Moon (Tanki X)"
+	}
+]
